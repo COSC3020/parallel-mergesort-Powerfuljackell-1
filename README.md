@@ -53,5 +53,5 @@ Prefice: I put a significant time into attempting to utilize a parrel reduce to 
 What is the span of the parallel program, in terms of worst-case $\Theta$? Hint:
 It may help to consider the DAG of the parallel program.
 
-Given that mergeSort() recursively splits itself (creating a new "process/thread" each time it does so until the arrays are less that one) the longest path would be logn so then the span is $\Theta(logn)$. 
-Runtime is $\Theta(nlogn)$ as merge() takes on average N amount of time (based on comparisons).
+Given that mergeSort() recursively splits itself (creating a new "process/thread" each time it does so until the arrays are less that one) the longest path would be logn,
+however, merge() takes on average N amount of time (based on comparisons), so then the span is $\Theta(nlogn)$.
