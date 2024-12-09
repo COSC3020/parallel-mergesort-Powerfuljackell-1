@@ -32,7 +32,11 @@ https://stackoverflow.com/questions/45876514/async-function-await-not-waiting-fo
 
 ^I couldn't for the life of me figure out why the last recursive iteration of the function mergesort was not finishing before outputting. This helped me in realizing I must await for it to finish in order to get an output that is not a promise
 
-Used my test code from 
+Used my used the test code from MergeSort: https://github.com/COSC3020/mergesort-Powerfuljackell-2/blob/main/code.test.js
+
+https://github.com/jsverify/jsverify#documentation
+
+^jsverift documentation to understand how to test asynchronous functions
 
 Implement a parallel version of mergesort (both the original recursive and the
 iterative in-place version from a previous exercise are fine). You may use any
